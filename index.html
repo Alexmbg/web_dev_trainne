@@ -22,7 +22,8 @@
         </div>
         <div>
             <label for="essay">Tell us about your self:</label>
-            <textarea name="essay" id="" cols="50" rows="10"></textarea>
+            <textarea name="essay" id="" cols="50" rows="10" maxlength="50"></textarea>
+            <!--maxlength specify how many words to be recive-->
             <br>
             <label for="exercise">Do you exercise at home?</label>
             <input type="radio" name="exercise" id="">yes
@@ -34,8 +35,15 @@
             <input type="checkbox" name="topics" id="">Online resources 
             <input type="checkbox" name="topics" id="">Phone apps
             <input type="checkbox" name="topics" id="">Magazines
+            <br>
+            <label for="movies">what is your favourite movie genre?</label>
+            <!--the first typed will be displayed-->
             <select name="movies" id="">
-                <option value="Books"></option>
+                <option value="Books">comedy</option>
+                <option value="Books">action</option>
+                <option value="Books">sci-fi</option>
+                <option value="Books">romance</option>
+                <option value="Books">adventure</option>
             </select>
         </div>
             <button type="submit">submit</button>
